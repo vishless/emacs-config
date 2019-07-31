@@ -187,3 +187,6 @@
 ;;  (when (eq major-mode 'ruby-mode)
 ;;    (shell-command (format "jruby -c %s" buffer-file-name)))) ;; jruby needs to be in path
 ;;(add-hook 'after-save-hook #'chksyn)
+
+;; Magit
+(global-set-key (kbd "C-x g") 'magit-status)
